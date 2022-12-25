@@ -14,6 +14,12 @@
 		F83A86652958733D00E6F830 /* myGifView.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F83A86632958733D00E6F830 /* myGifView.xcdatamodeld */; };
 		F83A86672958733E00E6F830 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F83A86662958733E00E6F830 /* Assets.xcassets */; };
 		F83A866A2958733E00E6F830 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F83A86682958733E00E6F830 /* LaunchScreen.storyboard */; };
+		F83A867629587D4700E6F830 /* 5.gif in Resources */ = {isa = PBXBuildFile; fileRef = F83A867129587D4700E6F830 /* 5.gif */; };
+		F83A867729587D4700E6F830 /* 1.gif in Resources */ = {isa = PBXBuildFile; fileRef = F83A867229587D4700E6F830 /* 1.gif */; };
+		F83A867829587D4700E6F830 /* 3.gif in Resources */ = {isa = PBXBuildFile; fileRef = F83A867329587D4700E6F830 /* 3.gif */; };
+		F83A867929587D4700E6F830 /* 2.gif in Resources */ = {isa = PBXBuildFile; fileRef = F83A867429587D4700E6F830 /* 2.gif */; };
+		F83A867A29587D4700E6F830 /* 4.gif in Resources */ = {isa = PBXBuildFile; fileRef = F83A867529587D4700E6F830 /* 4.gif */; };
+		F83A867E29587DB200E6F830 /* UIImage+Gif.swift in Sources */ = {isa = PBXBuildFile; fileRef = F83A867D29587DB200E6F830 /* UIImage+Gif.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +32,12 @@
 		F83A86662958733E00E6F830 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F83A86692958733E00E6F830 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F83A866B2958733E00E6F830 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F83A867129587D4700E6F830 /* 5.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = 5.gif; path = gif/5.gif; sourceTree = SOURCE_ROOT; };
+		F83A867229587D4700E6F830 /* 1.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = 1.gif; path = gif/1.gif; sourceTree = SOURCE_ROOT; };
+		F83A867329587D4700E6F830 /* 3.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = 3.gif; path = gif/3.gif; sourceTree = SOURCE_ROOT; };
+		F83A867429587D4700E6F830 /* 2.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = 2.gif; path = gif/2.gif; sourceTree = SOURCE_ROOT; };
+		F83A867529587D4700E6F830 /* 4.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = 4.gif; path = gif/4.gif; sourceTree = SOURCE_ROOT; };
+		F83A867D29587DB200E6F830 /* UIImage+Gif.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Gif.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,10 +74,16 @@
 				F83A865C2958733D00E6F830 /* SceneDelegate.swift */,
 				F83A865E2958733D00E6F830 /* ViewController.swift */,
 				F83A86602958733D00E6F830 /* Main.storyboard */,
+				F83A867D29587DB200E6F830 /* UIImage+Gif.swift */,
 				F83A86662958733E00E6F830 /* Assets.xcassets */,
 				F83A86682958733E00E6F830 /* LaunchScreen.storyboard */,
 				F83A866B2958733E00E6F830 /* Info.plist */,
 				F83A86632958733D00E6F830 /* myGifView.xcdatamodeld */,
+				F83A867229587D4700E6F830 /* 1.gif */,
+				F83A867429587D4700E6F830 /* 2.gif */,
+				F83A867329587D4700E6F830 /* 3.gif */,
+				F83A867529587D4700E6F830 /* 4.gif */,
+				F83A867129587D4700E6F830 /* 5.gif */,
 			);
 			path = myGifView;
 			sourceTree = "<group>";
@@ -128,8 +146,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F83A867929587D4700E6F830 /* 2.gif in Resources */,
+				F83A867829587D4700E6F830 /* 3.gif in Resources */,
 				F83A866A2958733E00E6F830 /* LaunchScreen.storyboard in Resources */,
 				F83A86672958733E00E6F830 /* Assets.xcassets in Resources */,
+				F83A867629587D4700E6F830 /* 5.gif in Resources */,
+				F83A867A29587D4700E6F830 /* 4.gif in Resources */,
+				F83A867729587D4700E6F830 /* 1.gif in Resources */,
 				F83A86622958733D00E6F830 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -145,6 +168,7 @@
 				F83A86652958733D00E6F830 /* myGifView.xcdatamodeld in Sources */,
 				F83A865B2958733D00E6F830 /* AppDelegate.swift in Sources */,
 				F83A865D2958733D00E6F830 /* SceneDelegate.swift in Sources */,
+				F83A867E29587DB200E6F830 /* UIImage+Gif.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
